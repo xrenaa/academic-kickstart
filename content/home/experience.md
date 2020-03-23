@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
 
-  * Researched on video generation, human motion synthesis and video debarring.
+  * Researched on video generation, human motion synthesis and video deblurring.
   * Completed research projects submitted to conferences.
       """
 
