@@ -20,15 +20,20 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interest is Deep learning, especially about Video Understanding and Pose Recognition.
 interests:
+- Computer Vision
 - Artificial Intelligence
 - Deep Learning
-
+- Computer Graphics
 
 education:
   courses:
+  - course: Exchange student
+    institution: EPFL
+    year: 2020 Spring
   - course: BSc in Compter Science and Math
     institution: HKUST
     year: 2017-2021
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -40,7 +45,7 @@ social:
   link: 'xrenaa1998@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: instagram
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://www.instagram.com/xuanchiren/?hl=zh-cn
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=fDHUk18AAAAJ
