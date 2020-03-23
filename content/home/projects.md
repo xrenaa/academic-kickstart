@@ -9,6 +9,7 @@ title = "Projects"
 subtitle = ""
 
 [content]
+
   # Page type to display. E.g. project.
   page_type = "project"
 
@@ -22,9 +23,9 @@ subtitle = ""
   filter_default = 0
 
   # [[content.filter_button]]
-name = "All"
+# name = "All"
 
-tag = "*"
+# tag = "*"
 
   # [[content.filter_button]]
   #   name = "Deep Learning"
@@ -43,7 +44,7 @@ tag = "*"
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 5
+  view = 1
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
