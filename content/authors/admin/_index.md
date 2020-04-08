@@ -54,9 +54,9 @@ social:
   link: https://github.com/xrenaa
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "xrenaa@connect.ust.hk"
@@ -68,6 +68,8 @@ user_groups:
 - Visitors
 ---
 
-Xuanchi Ren is currently an undergraduate student in Hong Kong University of Science and Technology. He was an exchange student in EPFL during 2020 spring. Up to now, he is working with Prof.[Qifeng Chen](https://cqf.io/) as a research assistant.
+Xuanchi Ren is currently an undergraduate student in Hong Kong University of Science and Technology. During 2020 spring, he was an exchange student in EPFL, where he was fortunate to work with Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). He will be a research assistant in Tsinghua University mentored by Prof.[Yebin Liu](http://liuyebin.com/) during 2020 Summer. Up to now, he is working with Prof.[Qifeng Chen](https://cqf.io/) as a research assistant.
 
 His research interests currently focus on computer vision and deep learning. He has experiences in video generation, human motion synthesis, action recognition and low-level vision.
+
+He is expected to apply for Ph.D starting from 2021 Fall. Here is his [Curriculum Vitae](http://xuanchiren.com/files/cv.pdf).
