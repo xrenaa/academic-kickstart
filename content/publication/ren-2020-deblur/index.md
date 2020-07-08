@@ -16,6 +16,6 @@ links:
   - icon_pack: fab
     icon: 
     name: Website
-    url: 'https://xuanchiren.com/img/blur'
+    url: 'https://xuanchiren.com/pub/blur'
 ---
 

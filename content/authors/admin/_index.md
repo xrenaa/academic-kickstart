@@ -68,7 +68,7 @@ user_groups:
 - Visitors
 ---
 
-Xuanchi Ren is currently an undergraduate student in Hong Kong University of Science and Technology. During 2020 spring, he is an exchange student in EPFL. He is a full-time research intern in [Intelligent Multimedia](https://www.microsoft.com/en-us/research/group/internet-media/) Group of Microsoft Research Asia from July, 2020. Up to now, he is working with Prof.[Qifeng Chen](https://cqf.io/) as a research assistant. 
+Xuanchi Ren is currently an undergraduate student in Hong Kong University of Science and Technology. During 2020 spring, he is an exchange student in EPFL. He is a full-time research intern in [Intelligent Multimedia](https://www.microsoft.com/en-us/research/group/internet-media/) Group of Microsoft Research Asia from July, 2020, supervised by Dr. Yuwang Wang. Up to now, he is working with Prof.[Qifeng Chen](https://cqf.io/) and Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/) as a research assistant. 
 
 His research interests currently focus on computer vision and deep learning. He has experiences in  autonomous driving, 3D reconstruction, video generation, human motion synthesis and low-level vision.
 
