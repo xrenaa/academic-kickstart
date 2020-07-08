@@ -14,14 +14,14 @@ role: Student
 
 # Organizations/Affiliations
 organizations:
-- name: HKUST
+- name: HKUST | MSRA
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interest is Deep learning, especially about Video Understanding and Pose Recognition.
 interests:
 - Computer Vision
-- Artificial Intelligence
+- Autonomous Driving
 - Deep Learning
 - Computer Graphics
 
@@ -68,8 +68,8 @@ user_groups:
 - Visitors
 ---
 
-Xuanchi Ren is currently an undergraduate student in Hong Kong University of Science and Technology. During 2020 spring, he is an exchange student in EPFL, where he is fortunate to work with Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). He will be a research assistant in Tsinghua University mentored by Prof.[Yebin Liu](http://liuyebin.com/) during 2020 Summer. Up to now, he is working with Prof.[Qifeng Chen](https://cqf.io/) as a research assistant.
+Xuanchi Ren is currently an undergraduate student in Hong Kong University of Science and Technology. During 2020 spring, he is an exchange student in EPFL. He is a full-time research intern in [Intelligent Multimedia](https://www.microsoft.com/en-us/research/group/internet-media/) Group of Microsoft Research Asia from July, 2020. Up to now, he is working with Prof.[Qifeng Chen](https://cqf.io/) as a research assistant. 
 
-His research interests currently focus on computer vision and deep learning. He has experiences in video generation, human motion synthesis, action recognition and low-level vision.
+His research interests currently focus on computer vision and deep learning. He has experiences in  autonomous driving, 3D reconstruction, video generation, human motion synthesis and low-level vision.
 
 He is expected to apply for Ph.D starting from 2021 Fall. Here is his [Curriculum Vitae](http://xuanchiren.com/files/cv.pdf).
