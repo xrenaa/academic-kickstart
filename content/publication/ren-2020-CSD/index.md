@@ -6,16 +6,16 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-title: "Video Deblurring by Fitting to Test Data"
-date: 2020-03-01
-authors: ["Xuanchi Ren*", "Zian Qian*", "Qifeng Chen"]
+title: "RETHINKING CONTENT AND STYLE: EXPLORING BIAS FOR UNSUPERVISED DISENTANGLEMENT"
+date: 2020-10-01
+authors: ["Xuanchi Ren", "Tao Yang", "Wenjun Zeng", "Yuwang Wang"]
 publication_types: ["3"]
 featured: True
-publication: "*Preprint*. Area: Low-level vision"
+publication: "*Under Review*. Area: Representation Learning"
 links:
   - icon_pack: fab
     icon: 
     name: Website
-    url: 'https://xuanchiren.com/pub/blur'
+    url: 'https://xuanchiren.com/pub/CSD'
 ---
 
