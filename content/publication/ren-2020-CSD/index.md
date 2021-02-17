@@ -12,10 +12,5 @@ authors: ["Xuanchi Ren", "Tao Yang", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
 featured: False
 publication: "*Under Review*. Area: Representation Learning"
-links:
-  - icon_pack: fab
-    icon: 
-    name: Website
-    url: 'https://xuanchiren.com/pub/CSD'
 ---
 
