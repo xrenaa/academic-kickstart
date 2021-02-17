@@ -10,7 +10,7 @@ title: "Rethinking Content and Style: Exploring Bias for Unsupervised Disentangl
 date: 2021-01-01
 authors: ["Xuanchi Ren", "Tao Yang", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
-featured: True
+featured: False
 publication: "*Under Review*. Area: Representation Learning"
 links:
   - icon_pack: fab
