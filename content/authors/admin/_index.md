@@ -18,12 +18,10 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interest is Deep learning, especially about Video Understanding and Pose Recognition.
+bio: My research interest is Deep learning, especially about Disentanglement and Generative Model.
 interests:
 - Computer Vision
-- Autonomous Driving
 - Deep Learning
-- Computer Graphics
 
 education:
   courses:
