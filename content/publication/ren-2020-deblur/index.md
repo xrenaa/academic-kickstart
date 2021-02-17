@@ -10,12 +10,13 @@ title: "Video Deblurring by Fitting to Test Data"
 date: 2020-03-01
 authors: ["Xuanchi Ren*", "Zian Qian*", "Qifeng Chen"]
 publication_types: ["3"]
-featured: True
+featured: False
 publication: "*Preprint*. Area: Low-level vision"
 links:
   - icon_pack: fab
     icon: 
     name: Website
     url: 'https://xuanchiren.com/pub/blur'
+url_code: "https://github.com/xrenaa/Deblur-by-Fitting"
 ---
 

@@ -72,4 +72,4 @@ Xuanchi Ren is currently an undergraduate student in Hong Kong University of Sci
 
 His research interests currently focus on computer vision and deep learning. He has experiences in  disentangled representation, autonomous driving, 3D reconstruction, video generation, human motion synthesis and low-level vision.
 
-He is expected to apply for Ph.D starting from 2021 Fall. Here is his [Curriculum Vitae](http://xuanchiren.com/files/cv.pdf).
+He is expected to apply for Ph.D starting from 2022 Fall. Here is his [Curriculum Vitae](http://xuanchiren.com/files/cv.pdf).

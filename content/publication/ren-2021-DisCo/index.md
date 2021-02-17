@@ -6,11 +6,11 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-title: "Rethinking Content and Style: Exploring Bias for Unsupervised Disentanglement"
-date: 2021-01-01
-authors: ["Xuanchi Ren", "Tao Yang", "Yuwang Wang", "Wenjun Zeng"]
+title: "Do Generative Models Know Disentanglement? Contrastive Learning is All You Need"
+date: 2021-02-01
+authors: ["Xuanchi Ren*", "Tao Yang*", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
-featured: True
+featured: False
 publication: "*Under Review*. Area: Representation Learning"
 links:
   - icon_pack: fab
