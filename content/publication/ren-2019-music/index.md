@@ -4,7 +4,7 @@
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: "Smart"
+  focal_point: "Center"
   preview_only: false
 title: "Music-oriented Dance Video Synthesis with Pose Perceptual Loss"
 date: 2019-11-01
