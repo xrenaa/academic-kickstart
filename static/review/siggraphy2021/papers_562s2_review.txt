@@ -1,0 +1,156 @@
+Instructions for making off-line reviews:
+If this form has opened in your browser save it as a text file.
+
+Edit your saved file in a plain text editor, not a word processor. On Macs try
+Atom, TextWrangler, or TextMate. On Windows try Notepad or TextPad. On Linux try
+Emacs or vi.
+
+Lines enclosed by angle brackets (<< and >>) are review questions or
+information identifying the review and submission. These lines should not be
+changed.  Lines beginning with '//' are comments and will be ignored.
+
+There are three kinds of questions: multiple choice, text response and
+confirmation questions.
+
+Multiple choice questions have the question, then several options beginning
+with '//'. Select your response by removing the '//' on the appropriate line.
+
+Text response questions have the question followed by several blank lines. You
+can enter your response on these blank lines, adding extra lines as needed.
+Markdown notation is supported.
+
+Confirmation questions just have a single commented line following the
+question. Remove the '//' to confirm the statement.
+
+If there is a review form in this file that you do not want to fill out at
+this time you can leave it blank.
+
+After you submit the reviews you will be able to view and edit them online.
+You should verify that your reviews were parsed as expected by viewing them
+within the system.
+
+------------------------------------------------------------------------------
+
+<<NEW REVIEW>>
+
+<< submission reviewed: (papers_562s2) Harmony-aware Human Motion Synthesis with Music >>
+
+<< area: Methods & Applications >>
+
+<< reviewer: Qifeng Chen (chenqifeng22@gmail.com) >>
+
+<< reviewing as: Technical Papers Tertiary Reviewer >>
+
+<<REVIEW QUESTIONS>>
+
+
+<< Description (required)
+Briefly describe the paper including its topic and the nature of its contribution (e.g., a study, an algorithm, a system, a benchmark...). Give your assessment of the scope, originality, and magnitude of the contribution. >>
+
+Answer:
+This focus of this paper is to generate harmony-aware dance conditioned on music. The paper proposes a novel audio-visual harmony evaluation framework to align the audio and visual beats and a harmony-aware GAN architecture to address audio-driven human motion synthesis problem. Furthermore, the experimental results look very nice. From my perspective, the paper is relevant to researchers in this subareas and the proposed novel harmony evaluation framework may benefit the application for audio-visual alignment.
+
+
+<< Clarity of Exposition (required)
+Are the exposition and presentation clear? How could they be improved? Is the length of the paper justified, assuming a recommended length of 8&ndash;10 pages plus references?
+ Please be tolerant of papers that do not conform to the usual paper template. >>
+
+Answer:
+The writing of the paper is easy to follow. The presentation is very details but maybe redundant. The introduction to the background (section 3) is too long. The length of the paper is 13 pages which is more than the recommended length.
+
+
+<< Quality of References (required)
+Are all the relevant papers discussed and, conversely, are all the references relevant to the presented work? Indicate any missing or superfluous references. Are all the cited papers accurately discussed in the context of the submission? >>
+
+Answer:
+The references are good and discussed accurately, except for missing a recent conference paper in the same area:
+
+[1] Ruozi Huang, Huang Hu, Wei Wu, Kei Sawada, Mi Zhang and Daxin Jiang. Dance Revolution: Long-Term Dance Generation with Music via Curriculum Learning, ICLR 2021.
+
+
+
+<< Technical Correctness and Reproducibility (required)
+Is the technical content of the paper correct? Are all important details (e.g., algorithm, study protocol, benchmark metric, training procedure...) discussed adequately? Could the work be reproduced from the information in the paper?
+ Remember that the authors may not be able to share their code/data for various reasons. Submissions should not be penalized for the lack of code/data, even though such additional material often has a positive effect on the review process. Regardless of whether the code/data is provided, one should be able to recreate it from the paper and you may request additional information if needed. >>
+
+Answer:
+The content of the paper is correct. The details are adequate. The work can be reproduced from this paper.
+
+
+<< Validation (required)
+Does the validation support the claims of the paper? Are the limitations and drawbacks of the work clear?
+ Remember that different types of contributions require different types of validation and that not everything needs to be demonstrated on an end-to-end application or with a user study. Adjust the expectation to the originality of the contribution; while extensive testing is expected for a refinement of a well-established approach, a lighter-weight validation may be acceptable for a groundbreaking idea. 
+ If asking for additional experiments, be mindful that the required resources should not exceed those of a typical lab or those already demonstrated in the submission. When requesting comparisons to previous papers, provide links to the code/data of these papers (if no such code/data exists, consider limiting the request to a discussion). If needed, include suggestions to keep the paper length adequate. >>
+
+Answer:
+The validation for the final result are clear. However, the validations during Section 3 are only qualitatively. The key observation/motivation to revise the previous methods for audio-visual alignment are only demonstrated in a figure. More ablation study for this may be needed. The limitations of the work are clearly stated.
+
+
+
+//Please enter your recommendation, basing your rating on the paper as it was submitted.
+
+
+<< Recommendation (required) >>
+
+Answer: 
+
+Borderline reject
+
+
+//Strong reject (I would argue strongly against this paper)
+
+//Reject (I recommend rejection)
+
+//Borderline reject (I am not sure, but leaning negative)
+
+//Borderline accept (I am not sure, but leaning positive)
+
+//Accept (I recommend acceptance, possibly despite minor concerns)
+
+//Strong accept (I would argue strongly for this paper)
+
+
+
+<< Please describe your expertise on the topic of the paper. (required) >> 
+
+
+Answer: Intermediate
+
+//Novice (I can evaluate the overall correctness but not the details.)
+
+//Intermediate (I understand the technical details and I am familiar with the state of the art.)
+
+//Expert (I have worked on a related topic in the past 5 years.)
+
+
+<< Explanation of Rating: Explain your rating by discussing the strengths and weaknesses of the submission, contributions, and the potential impact of the paper. Remember to adjust your expectation to the type and originality of the contribution. Include suggestions for improvement and publication alternatives, if appropriate. Be thorough. Be fair. Be courteous. Provide evidence and references for your statements. Above all, be open to new ideas and be constructive. (required) >>
+
+Answer:
+
+Overall the experimental results look very nice and seem to compare well to other methods both qualitatively and quantitatively. The proposed GAN framework have already been introduced in the literature. The scope of the contribution seems mainly on the new audio-visual harmony evaluation framework. However, the ablation study for this harmony  framework may not be enough to me. 
+
+
+Strengths:
+- This paper consider the problem very carefully, especially in the details of matching the beats, and thus they design a complete framework, which makes sense to me.
+- From the application level, this work is very interesting, and the proposed method is very easy to follow.
+
+Weaknesses:
+- The dataset for training the model only have length of 90 mins. I doubt if such dataset can train a model with such a complex structure.
+- Moreover, the types of the training data, e.g, cha-cha, rumba, tango and waltz, are all similar dances. The demonstrate patterns are quite common in these types of dances. Hence, the effectiveness of the proposed method for other dance pattern or music with unobvious beat pattern is questionable. Also, the diversity of the results is a limitation.
+- Although the dances in the paper are demonstrated to be good and the beat is crucial for generation, it's hard to tell the influence of the given music on other aspect like emotion.
+- The motivation of audio-visual harmony framework is clear. However, I have two questions. The first one is that the performance of the framework with a simple equation (6). The second questions is the delay between visual perception and brain-processed recognition. Is the delay that significant to influence the performance? How about have more ablation study?
+
+Clarify:
+- What is the P in the loss L_kl that transfer poses to probability distribution?
+
+As its current state, I would like to rate this paper as Borderline. 
+
+
+<< Private Comments: You may enter private comments for the papers committee here. These comments will not be sent to the paper author(s). Please do not mention any names or any other papers that are currently in review. You may use this field to comment on your reviewer expertise and confidence in evaluation. >>
+
+
+
+<< Would you like to receive a copy of this review by email? >>
+
+
+//yes
