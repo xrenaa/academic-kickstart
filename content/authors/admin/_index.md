@@ -30,7 +30,7 @@ education:
     year: 2020 Spring
   - course: BSc in Compter Science and Math
     institution: HKUST
-    year: 2017-2021
+    year: 2017-2022
 
 
 # Social/Academic Networking
@@ -66,7 +66,7 @@ user_groups:
 - Visitors
 ---
 
-Xuanchi Ren is currently an undergraduate student in Hong Kong University of Science and Technology. During 2020 spring, he is an exchange student in EPFL. He is a full-time research intern in [Intelligent Multimedia](https://www.microsoft.com/en-us/research/group/internet-media/) Group of Microsoft Research Asia from July, 2020, supervised by Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/) and Prof.[Wenjun Zeng](https://www.microsoft.com/en-us/research/people/wezeng/). Up to now, he is working with Prof.[Qifeng Chen](https://cqf.io/) and Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/) as a research assistant. 
+Xuanchi Ren is currently an undergraduate student in Hong Kong University of Science and Technology. During 2020 spring, he was an exchange student in EPFL, where he was fortunate to work with Prof.[Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). He is a full-time research intern in [Intelligent Multimedia](https://www.microsoft.com/en-us/research/group/internet-media/) Group of Microsoft Research Asia from July, 2020, supervised by Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/) and Prof.[Wenjun Zeng](https://www.microsoft.com/en-us/research/people/wezeng/). Up to now, he is working with Prof.[Qifeng Chen](https://cqf.io/) and Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/) as a research assistant.
 
 His research interests currently focus on computer vision and deep learning. He has experiences in  disentangled representation, autonomous driving, 3D reconstruction, video generation, human motion synthesis and low-level vision.
 
