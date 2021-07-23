@@ -11,6 +11,6 @@ date: 2021-02-01
 authors: ["Xuanchi Ren","Tao Yang", "Li Erran Li", "Alexandre Alahi", "Qifeng Chen"]
 publication_types: ["3"]
 featured: False
-publication: "*Under Review*. Area: Autonomous Driving"
+publication: "ICCV 2021. Area: Autonomous Driving"
 ---
 
