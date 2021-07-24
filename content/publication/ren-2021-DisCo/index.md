@@ -11,6 +11,8 @@ date: 2021-02-01
 authors: ["Xuanchi Ren*", "Tao Yang*", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
 featured: False
-publication: "*Under Review*. Area: Representation Learning"
+url_pdf: "https://arxiv.org/pdf/2102.10543.pdf"
+url_code: "https://github.com/xrenaa/DisCo"
+publication: "*Preprint*"
 ---
 

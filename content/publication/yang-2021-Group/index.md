@@ -11,6 +11,6 @@ date: 2021-02-01
 authors: ["Tao Yang", "Xuanchi Ren", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
 featured: False
-publication: "*Under Review*. Area: Representation Learning"
+publication: "*Preprint*"
 ---
 

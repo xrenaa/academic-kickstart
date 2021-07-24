@@ -11,7 +11,7 @@ date: 2020-03-01
 authors: ["Xuanchi Ren*", "Zian Qian*", "Qifeng Chen"]
 publication_types: ["3"]
 featured: False
-publication: "*Preprint*. Area: Low-level vision"
+publication: "*Preprint*"
 links:
   - icon_pack: fab
     icon: 
