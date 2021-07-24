@@ -6,7 +6,7 @@ image:
   caption: ""
   focal_point: "Center"
   preview_only: false
-title: "Music-oriented Dance Video Synthesis with Pose Perceptual Loss"
+title: "Self-supervised Dance Video Synthesis Conditioned on Music"
 date: 2019-11-01
 publishDate: 2020-03-23T21:43:29.183315Z
 authors: ["Xuanchi Ren", "Haoran Li", "Zijian Huang", "Qifeng Chen"]
