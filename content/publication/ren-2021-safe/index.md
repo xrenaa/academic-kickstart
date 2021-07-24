@@ -6,11 +6,11 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-title: "Safety-Aware Motion Prediction for Unseen Vehicles in Autonomous Driving"
-date: 2021-02-01
+title: "Safety-aware Motion Prediction with Unseen Vehicles for Autonomous Driving"
+date: 2021-07-01
 authors: ["Xuanchi Ren","Tao Yang", "Li Erran Li", "Alexandre Alahi", "Qifeng Chen"]
 publication_types: ["3"]
-featured: False
-publication: "ICCV 2021. Area: Autonomous Driving"
+featured: True
+publication: "ICCV 2021"
 ---
 
