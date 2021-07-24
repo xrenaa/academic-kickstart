@@ -13,6 +13,6 @@ publication_types: ["3"]
 featured: False
 url_pdf: "https://arxiv.org/pdf/2102.10544.pdf"
 url_code: "https://github.com/xrenaa/CS-DisMo"
-publication: "Preprint"
+publication: "*Preprint*"
 ---
 
