@@ -7,7 +7,7 @@ image:
   focal_point: ""
   preview_only: false
 title: "Rethinking Content and Style: Exploring Bias for Unsupervised Disentanglement"
-date: 2021-10-01
+date: 2021-07-01
 authors: ["Xuanchi Ren", "Tao Yang", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
 featured: False
