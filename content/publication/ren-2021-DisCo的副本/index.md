@@ -6,11 +6,13 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-title: "Towards Building A Group-based Unsupervised Representation Disentanglement Framework"
-date: 2021-02-01
-authors: ["Tao Yang", "Xuanchi Ren", "Yuwang Wang", "Wenjun Zeng"]
+title: "Autonomous Submission"
+date: 2021-12-01
+authors: ["Xuanchi Ren", "", "Xiaolong Wang"]
 publication_types: ["3"]
 featured: False
-publication: "*Submission to ICLR (Score: 8 6 6 3)*"
+url_pdf: "https://xuanchiren.com/pub/cvpr2022_submission.pdf"
+url_code: "https://github.com/xrenaa/"
+publication: "*Under Review*"
 ---
 
