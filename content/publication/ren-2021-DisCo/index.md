@@ -13,6 +13,6 @@ publication_types: ["3"]
 featured: False
 url_pdf: "https://arxiv.org/pdf/2102.10543.pdf"
 url_code: "https://github.com/xrenaa/DisCo"
-publication: "*Preprint*"
+publication: "*Submission to ICLR 2022 (Score: 8 8 6 6)*"
 ---
 
