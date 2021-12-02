@@ -6,7 +6,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-title: "Autonomous Submission"
+title: "Anonymous Submission"
 date: 2021-12-01
 authors: ["Xuanchi Ren", "", "Xiaolong Wang"]
 publication_types: ["3"]
