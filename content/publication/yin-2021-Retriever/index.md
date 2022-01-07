@@ -12,6 +12,5 @@ authors: ["Dacheng Yin*", "Xuanchi Ren*", "Chong Luo", "Yuwang Wang", "Zhiwei Xi
 publication_types: ["3"]
 featured: False
 url_pdf: "https://openreview.net/forum?id=AXWygMvuT6Q"
-url_code: "https://github.com/xrenaa/DisCo"
 publication: "*Submission to ICLR 2022 (Score: 8 6 6)*"
 ---
