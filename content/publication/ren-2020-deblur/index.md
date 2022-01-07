@@ -18,5 +18,6 @@ links:
     name: Website
     url: 'https://xuanchiren.com/pub/blur'
 url_code: "https://github.com/xrenaa/Deblur-by-Fitting"
+url_pdf: "https://arxiv.org/pdf/2012.05228.pdf"
 ---
 
