@@ -6,13 +6,13 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-title: "Do Generative Models Know Disentanglement? Contrastive Learning is All You Need"
+title: "Learning Disentangled Representation by Exploiting Pretrained Generative Models: A Contrastive Learning View"
 date: 2021-02-01
 authors: ["Xuanchi Ren*", "Tao Yang*", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
 featured: False
 url_pdf: "https://arxiv.org/pdf/2102.10543.pdf"
 url_code: "https://github.com/xrenaa/DisCo"
-publication: "*Submission to ICLR 2022 (Score: 8 8 6 6)*"
+publication: "ICLR 2022"
 ---
 
