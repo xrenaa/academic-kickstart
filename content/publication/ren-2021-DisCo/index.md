@@ -7,7 +7,7 @@ image:
   focal_point: ""
   preview_only: false
 title: "Learning Disentangled Representation by Exploiting Pretrained Generative Models: A Contrastive Learning View"
-date: 2021-02-01
+date: 2021-11-01
 authors: ["Xuanchi Ren*", "Tao Yang*", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
 featured: False

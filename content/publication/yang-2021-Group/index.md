@@ -7,7 +7,7 @@ image:
   focal_point: ""
   preview_only: false
 title: "Towards Building A Group-based Unsupervised Representation Disentanglement Framework"
-date: 2021-02-01
+date: 2021-11-01
 authors: ["Tao Yang", "Xuanchi Ren", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
 featured: False
