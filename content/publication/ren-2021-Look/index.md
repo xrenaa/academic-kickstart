@@ -12,5 +12,5 @@ authors: ["Xuanchi Ren", "Xiaolong Wang"]
 publication_types: ["3"]
 featured: False
 url_pdf: "https://xuanchiren.com/pub/cvpr2022_submission.pdf"
-publication: "*Under Review. Score: SA, SA, WA, WA, Borderline*"
+publication: "*Under Review.*"
 ---
