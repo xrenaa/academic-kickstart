@@ -10,7 +10,7 @@ title: "Retriever: Learning Content-Style Representation as a Token-Level Bipart
 date: 2021-11-01
 authors: ["Dacheng Yin*", "Xuanchi Ren*", "Chong Luo", "Yuwang Wang", "Zhiwei Xiong", "Wenjun Zeng"]
 publication_types: ["3"]
-featured: False
+featured: True
 url_pdf: "https://openreview.net/forum?id=AXWygMvuT6Q"
 publication: "ICLR 2022"
 ---
