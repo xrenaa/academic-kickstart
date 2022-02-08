@@ -4,7 +4,7 @@
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Center"
   preview_only: false
 title: "Retriever: Learning Content-Style Representation as a Token-Level Bipartite Graph"
 date: 2021-11-01
