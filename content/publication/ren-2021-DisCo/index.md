@@ -11,7 +11,7 @@ date: 2021-11-01
 authors: ["Xuanchi Ren*", "Tao Yang*", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
 featured: False
-url_pdf: "https://arxiv.org/pdf/2102.10543.pdf"
+url_pdf: "https://openreview.net/forum?id=j-63FSNcO5a"
 url_code: "https://github.com/xrenaa/DisCo"
 publication: "ICLR 2022"
 ---
