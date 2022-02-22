@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Look Outside the Room: Synthesizing A Consistent Long-Term 3D Scene Video from A Single Image.">
+  <meta name="keywords" content="Novel View Synthesis, Video Synthesis">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Look Outside the Room: Synthesizing A Consistent Long-Term 3D Scene Video from A Single Image</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+
+  </script> -->
+  <style>
+  .hr {width: 100%; height: 1px; margin: 48px 0; background-color: #d6dbdf;}
+  </style>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">Look Outside the Room: Synthesizing A Consistent Long-Term 3D Scene Video from A Single Image</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://xuanchiren.com">Xuanchi Ren</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://xiaolonw.github.io/">Xiaolong Wang</a><sup>2</sup>
+            <span class="author-block">
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>HKUST,</span>
+            <span class="author-block"><sup>2</sup>UC San Diego</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://xuanchiren.com/pub/cvpr2022_submission.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://youtu.be/TFRAbBck6HE"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/xrenaa/Look-Outside-Room"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (Coming Soon)</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop height="100%">
+        <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/teaser.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Our method can synthesize a consistent long-term 3D scene video from a single image, especially for looking outside the room.
+      </h2>
+    </div>
+  </div>
+</section> -->
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop height="100%">
+            <source src="./static/videos/demo_1_resize.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="./static/videos/demo_2_resize.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop height="100%">
+            <source src="./static/videos/demo_3_resize.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop height="100%">
+            <source src="./static/videos/demo_4_resize.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop height="100%">
+            <source src="./static/videos/demo_5_resize.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop height="100%">
+            <source src="./static/videos/demo_6_resize.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+        <h2 class="subtitle has-text-centered">
+        Our method can synthesize a consistent long-term 3D scene video from a <i>single image</i>, especially for looking outside the room.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Novel view synthesis from a single image has recently attracted a lot of attention, and it has been primarily advanced by 3D deep learning and rendering techniques. However, most work is still limited by synthesizing new views within relatively small camera motions. In this paper, we propose a novel approach to synthesize a consistent long-term video given a single scene image and a trajectory of large camera motions. Our approach utilizes an autoregressive Transformer to perform sequential modeling of multiple frames, which reasons the relations between multiple frames and the corresponding cameras to predict the next frame. To facilitate learning and ensure consistency among generated frames, we introduce a locality constraint based on the input cameras to guide self-attention among a large number of patches across space and time. Our method outperforms state-of-the-art view synthesis approaches by a large margin, especially when synthesizing long-term future in indoor 3D scenes.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/TFRAbBck6HE?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <p>
+            During training, images and camera transformations are first encoded to modality-specific tokens. Tokens are then fed into an autoregressive Transformer that predicts images. During inference, given a single image and a camera trajectory, novel views can be generated autoregressively by using the Transformer.
+          </p>
+          <div class="column">
+            <img src="./static/images/method.png" />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--/ Look closer. -->
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Comparsion -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Comparison to prior state-of-the-art</h2>
+          <p style="text-align: center;">
+          We evaluate and compare with previous approaches on two benchmark datasets: Matterport and RealEstate10K. Our model outperforms previous work by a large margin (see paper for details).
+          </p>
+
+            <div style="padding: 12px;"></div>
+
+            <div class="columns is-centered">
+                <video id="dollyzoom" autoplay controls muted loop width="50%">
+                  <source src="static/videos/synsin_1.mp4"
+                          type="video/mp4">
+                </video>
+
+                <div style="padding: 20px;"></div>
+
+                <video id="dollyzoom" autoplay controls muted loop width="50%">
+                  <source src="static/videos/geogpt_1.mp4"
+                          type="video/mp4">
+                </video>
+
+                <div style="padding: 20px;"></div>
+
+                <video id="dollyzoom" autoplay controls muted loop width="60%">
+                  <source src="static/videos/ours_1.mp4"
+                          type="video/mp4">
+                </video>
+            </div>
+
+            <div style="padding: 6px;"></div>
+
+            <div class="columns is-centered">
+
+              <div style="padding-right: 20px;"></div>
+
+               <p> <strong> SynSin (Wiles et al.) </strong> </p>
+
+               <div style="padding-right: 140px;"></div>
+
+               <p> <strong>  GeoGPT (Rombach et al.) </strong> </p>
+
+               <div style="padding-right: 170px;"></div>
+
+               <p> <strong>  Ours </strong> </p>
+
+               <div style="padding-right: 80px;"></div>
+
+            </div>
+
+            <div style="padding: 12px;"></div>
+
+            <div class="columns is-centered">
+                <video id="dollyzoom" autoplay controls muted loop width="50%">
+                  <source src="static/videos/synsin_2.mp4"
+                          type="video/mp4">
+                </video>
+
+                <div style="padding: 20px;"></div>
+
+                <video id="dollyzoom" autoplay controls muted loop width="50%">
+                  <source src="static/videos/geogpt_2.mp4"
+                          type="video/mp4">
+                </video>
+
+                <div style="padding: 20px;"></div>
+
+                <video id="dollyzoom" autoplay controls muted loop width="60%">
+                  <source src="static/videos/ours_2.mp4"
+                          type="video/mp4">
+                </video>
+            </div>
+
+            <div style="padding: 6px;"></div>
+
+            <div class="columns is-centered">
+
+              <div style="padding-right: 20px;"></div>
+
+               <p> <strong> SynSin (Wiles et al.) </strong> </p>
+
+               <div style="padding-right: 140px;"></div>
+
+               <p> <strong>  GeoGPT (Rombach et al.) </strong> </p>
+
+               <div style="padding-right: 170px;"></div>
+
+               <p> <strong>  Ours </strong> </p>
+
+               <div style="padding-right: 80px;"></div>
+
+            </div>
+
+
+
+
+
+
+      </div>
+    </div>
+    <!-- Comparsion -->
+
+    <div class="hr"></div>
+
+    <div class="columns is-centered">
+
+      <!-- Setup -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Attention Maps</h2>
+          <p>
+            Given the output image in the future and the input image, we visualize bias on the input image corresponding to a patch on the output image. This visualization indicates when the patch is synthesized, what information contributes the most in the input image. We can see most contributions come from the patches in nearby locations along the trajectory. 
+          </p>
+          <img src="static/images/attention_map_new.png"/>
+        </div>
+      </div>
+
+      <!-- Views-->
+      <div class="column">
+        <h2 class="title is-3">Ablation Study</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              We report some ablations of our method in terms of longterm view synthesis on the Matterport3D dataset. Camera-Aware Bias and decoupled positional embedding improve the image quality and the consistency between frames. Finetuning the model by stimulating error accumulation benefits the longterm view synthesis.
+            </p>
+            <img src="static/images/ablation.png"/>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="hr"></div>
+    
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{ren2022look,
+  author    = {Ren, Xuanchi and Wang, Xiaolong},
+  title     = {Look Outside the Room: Synthesizing A Consistent Long-Term 3D Scene Video from A Single Image},
+  journal   = {Arxiv},
+  year      = {2022},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://xuanchiren.com/pub/cvpr2022_submission.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/xrenaa/Look-Outside-Room" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Correspondence to <a href="xuanchiren.com">Xuanchi Ren</a>. This website template is borrowed from <a
+              href="https://github.com/nerfies/nerfies.github.io">Here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
