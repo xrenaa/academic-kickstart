@@ -12,5 +12,5 @@ authors: ["Xuanchi Ren", "Xiaolong Wang"]
 publication_types: ["3"]
 featured: False
 url_pdf: "https://xuanchiren.com/pub/cvpr2022_submission.pdf"
-publication: "*Under Review*"
+publication: "CVPR 2022"
 ---
