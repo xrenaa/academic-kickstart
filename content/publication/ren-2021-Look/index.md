@@ -10,7 +10,7 @@ title: "Look Outside the Room: Synthesizing A Consistent Long-Term 3D Scene Vide
 date: 2022-03-01
 authors: ["Xuanchi Ren", "Xiaolong Wang"]
 publication_types: ["3"]
-featured: False
+featured: true
 url_pdf: "https://xuanchiren.com/pub/look-outside-door.pdf"
 links:
   - icon_pack: fab

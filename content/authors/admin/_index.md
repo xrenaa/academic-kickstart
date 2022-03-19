@@ -14,7 +14,7 @@ role: Student
 
 # Organizations/Affiliations
 organizations:
-- name: HKUST | MSRA
+- name: HKUST
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -40,7 +40,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'xrenaa1998@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'xrenaa@connect.ust.hk'  # For a direct email link, use "mailto:test@example.org".
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/xuanchiren/?hl=zh-cn
@@ -66,7 +66,7 @@ user_groups:
 - Visitors
 ---
 
-Xuanchi Ren is currently an undergraduate student at Hong Kong University of Science and Technology, supervised by Prof.[Qifeng Chen](https://cqf.io/). During 2020 spring, he was an exchange student in EPFL, where he was fortunate to work with Prof.[Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en) and Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/). He was also fortunate to work with Prof. [Xiaolong Wang](https://xiaolonw.github.io/) at UCSD in 2021 Summer. He is a full-time research intern in the [Intelligent Multimedia](https://www.microsoft.com/en-us/research/group/internet-media/) Group of Microsoft Research Asia from July 2020, supervised by Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/) and Prof.[Wenjun Zeng](https://www.microsoft.com/en-us/research/people/wezeng/). 
+Xuanchi Ren is currently an undergraduate student at Hong Kong University of Science and Technology, supervised by Prof. [Qifeng Chen](https://cqf.io/). During 2020 spring, he was an exchange student in EPFL, where he was fortunate to work with Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en) and Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/). He spent one and a half years as a full-time research intern in the [Intelligent Multimedia](https://www.microsoft.com/en-us/research/group/internet-media/) Group of Microsoft Research Asia from July 2020, supervised by Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/) and Prof.[Wenjun Zeng](https://www.microsoft.com/en-us/research/people/wezeng/). He was also lucky to work with Prof. [Xiaolong Wang](https://xiaolonw.github.io/) at UCSD in the 2021 Summer. 
 
 His research interests currently focus on computer vision and deep learning. He has experience in the generative model, disentangled representation, autonomous driving, 3D vision, video generation, and low-level vision.
 
