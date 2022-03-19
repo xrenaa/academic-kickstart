@@ -12,6 +12,7 @@ authors: ["Tao Yang", "Xuanchi Ren", "Yuwang Wang", "Wenjun Zeng"]
 publication_types: ["3"]
 featured: False
 url_pdf: "https://openreview.net/pdf?id=YgPqNctmyd"
+Url_code: "https://github.com/ThomasMrY/Groupified-VAE"
 publication: "ICLR 2022"
 ---
 

@@ -7,7 +7,7 @@ image:
   focal_point: ""
   preview_only: false
 title: "Look Outside the Room: Synthesizing A Consistent Long-Term 3D Scene Video from A Single Image"
-date: 2021-12-01
+date: 2022-03-01
 authors: ["Xuanchi Ren", "Xiaolong Wang"]
 publication_types: ["3"]
 featured: False
@@ -17,10 +17,7 @@ links:
     icon: 
     name: Website
     url: 'https://xrenaa.github.io/look-outside-room/'
-links:
-  - icon_pack: fab
-    icon: 
-    name: Video
-    url: 'https://www.youtube.com/watch?v=eSftXilv21s'
 publication: "CVPR 2022"
 ---
+
+{{< youtube eSftXilv21s>}}
