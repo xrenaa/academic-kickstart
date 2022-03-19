@@ -11,6 +11,16 @@ date: 2021-12-01
 authors: ["Xuanchi Ren", "Xiaolong Wang"]
 publication_types: ["3"]
 featured: False
-url_pdf: "https://xuanchiren.com/pub/cvpr2022_submission.pdf"
+url_pdf: "https://xuanchiren.com/pub/look-outside-door.pdf"
+links:
+  - icon_pack: fab
+    icon: 
+    name: Website
+    url: 'https://xrenaa.github.io/look-outside-room/'
+links:
+  - icon_pack: fab
+    icon: 
+    name: Video
+    url: 'https://www.youtube.com/watch?v=eSftXilv21s'
 publication: "CVPR 2022"
 ---
