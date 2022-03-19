@@ -12,6 +12,7 @@ authors: ["Xuanchi Ren","Tao Yang", "Li Erran Li", "Alexandre Alahi", "Qifeng Ch
 publication_types: ["3"]
 featured: True
 url_pdf: "https://arxiv.org/pdf/2109.01510.pdf"
+Url_code: "https://github.com/xrenaa/Safety-Aware-Motion-Prediction"
 publication: "ICCV 2021"
 ---
 
