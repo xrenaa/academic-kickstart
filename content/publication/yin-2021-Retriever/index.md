@@ -16,6 +16,6 @@ links:
   - icon_pack: fab
     icon: 
     name: Website
-    url: 'https://ydcustc.github.io/ydc.github.io/retriever/'
+    url: 'https://ydcustc.github.io/retriever/'
 publication: "ICLR 2022"
 ---
