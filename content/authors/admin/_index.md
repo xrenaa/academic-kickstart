@@ -66,8 +66,7 @@ user_groups:
 - Visitors
 ---
 
-Xuanchi Ren is currently an undergraduate student at Hong Kong University of Science and Technology, supervised by Prof. [Qifeng Chen](https://cqf.io/). During 2020 spring, he was an exchange student in EPFL, where he was fortunate to work with Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en) and Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/). He spent one and a half years as a full-time research intern in the [Intelligent Multimedia](https://www.microsoft.com/en-us/research/group/internet-media/) Group of Microsoft Research Asia from July 2020, supervised by Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/) and Prof.[Wenjun Zeng](https://www.microsoft.com/en-us/research/people/wezeng/). He was also lucky to work with Prof. [Xiaolong Wang](https://xiaolonw.github.io/) at UCSD in the 2021 Summer. 
+I am an incoming PhD student at University of Toronto. I am currently an undergraduate student at Hong Kong University of Science and Technology, supervised by Prof. [Qifeng Chen](https://cqf.io/). During my undergraduate years, I was fortunate to work with Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/), Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en)@EPFL, Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/)@MSRA and Prof. [Xiaolong Wang](https://xiaolonw.github.io/)@UCSD. 
 
-His research interests currently focus on computer vision and deep learning. He has experience in the generative model, disentangled representation, autonomous driving, 3D vision, video generation, and low-level vision.
+My research interests are in computer vision, particularly generative modeling and representation learning.
 
-He is expected to apply for Ph.D. starting from 2022 Fall. Here is his [Curriculum Vitae](http://xuanchiren.com/files/cv.pdf).
