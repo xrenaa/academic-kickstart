@@ -66,7 +66,7 @@ user_groups:
 - Visitors
 ---
 
-I am an incoming PhD student at University of Toronto. I am currently an undergraduate student at Hong Kong University of Science and Technology, supervised by Prof. [Qifeng Chen](https://cqf.io/). During my undergraduate years, I was fortunate to work with Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/), Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en)@EPFL, Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/)@MSRA and Prof. [Xiaolong Wang](https://xiaolonw.github.io/)@UCSD. 
+I am an incoming PhD student at University of Toronto, supervised by Prof. [Sanja Fidler](http://www.cs.utoronto.ca/~fidler/). I am currently an undergraduate student at Hong Kong University of Science and Technology, supervised by Prof. [Qifeng Chen](https://cqf.io/). During my undergraduate years, I was fortunate to work with Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/), Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en)@EPFL, Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/)@MSRA and Prof. [Xiaolong Wang](https://xiaolonw.github.io/)@UCSD. 
 
 My research interests are in computer vision, particularly generative modeling and representation learning.
 
