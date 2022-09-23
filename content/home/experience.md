@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Beijing"
   date_start = "2020-07-07"
-  date_end = ""
+  date_end = "2021-12-07"
 
 [[experience]]
   title = "Research Intern"
@@ -31,7 +31,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Hong Kong"
   date_start = "2019-05-01"
-  date_end = ""
+  date_end = "2022-09-01"
   description = """
   Responsibilities include:
 

@@ -14,17 +14,20 @@ role: Student
 
 # Organizations/Affiliations
 organizations:
-- name: HKUST
+- name: University of Toronto
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interest is Deep learning, especially about Disentanglement and Generative Model.
+bio: My research interest is Deep learning, especially about Generative Model.
 interests:
 - Computer Vision
 - Deep Learning
 
 education:
   courses:
+  - course: PhD student in Computer Science
+    institution: University of Toronto
+    year: 2022-2027(expected)
   - course: Exchange student
     institution: EPFL
     year: 2020 Spring
@@ -66,7 +69,6 @@ user_groups:
 - Visitors
 ---
 
-I am an incoming PhD student at University of Toronto, supervised by Prof. [Sanja Fidler](http://www.cs.utoronto.ca/~fidler/). I am currently an undergraduate student at Hong Kong University of Science and Technology, supervised by Prof. [Qifeng Chen](https://cqf.io/). During my undergraduate years, I was fortunate to work with Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/), Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en)@EPFL, Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/)@MSRA and Prof. [Xiaolong Wang](https://xiaolonw.github.io/)@UCSD. 
+I am a PhD student at University of Toronto, machine learning group and Vector Institute. My supervisor is Prof. [Sanja Fidler](http://www.cs.utoronto.ca/~fidler/). During my undergraduate years at HKUST, I was supervised by Prof. [Qifeng Chen](https://cqf.io/) and I was fortunate to work with Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/), Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en)@EPFL, Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/)@MSRA and Prof. [Xiaolong Wang](https://xiaolonw.github.io/)@UCSD. 
 
 My research interests are in computer vision, particularly generative modeling and representation learning.
-
