@@ -27,7 +27,7 @@ education:
   courses:
   - course: PhD student in Computer Science
     institution: University of Toronto
-    year: 2022-2027(expected)
+    year: 2022-2027 (expected)
   - course: Exchange student
     institution: EPFL
     year: 2020 Spring
@@ -44,9 +44,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'xrenaa@connect.ust.hk'  # For a direct email link, use "mailto:test@example.org".
-- icon: instagram
-  icon_pack: fab
-  link: https://www.instagram.com/xuanchiren/?hl=zh-cn
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=fDHUk18AAAAJ
