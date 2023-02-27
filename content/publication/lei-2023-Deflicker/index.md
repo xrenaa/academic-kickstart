@@ -6,7 +6,7 @@ image:
   caption: ""
   focal_point: "Center"
   preview_only: false
-title: "Retriever: Learning Content-Style Representation as a Token-Level Bipartite Graph"
+title: "Blind Deflickering by Neural Filtering with a Flawed Atlas"
 date: 2023-02-27
 authors: ["Chenyang Lei*", "Xuanchi Ren*", "Zhaoxiang Zhang", "Qifeng Chen"]
 publication_types: ["3"]
