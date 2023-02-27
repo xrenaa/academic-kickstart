@@ -3,7 +3,7 @@
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 title: "Blind Deflickering by Neural Filtering with a Flawed Atlas"
-date: 2023-02-27
+date: 2023-02-26
 authors: ["Chenyang Lei*", "Xuanchi Ren*", "Zhaoxiang Zhang", "Qifeng Chen"]
 publication_types: ["3"]
 featured: False
