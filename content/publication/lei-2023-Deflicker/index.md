@@ -7,7 +7,7 @@ image:
   focal_point: ""
   preview_only: false
 title: "Blind Deflickering by Neural Filtering with a Flawed Atlas"
-date: 2022-11-01
+date: 2023-01-01
 authors: ["Chenyang Lei*", "Xuanchi Ren*", "Zhaoxiang Zhang", "Qifeng Chen"]
 publication_types: ["3"]
 featured: False
