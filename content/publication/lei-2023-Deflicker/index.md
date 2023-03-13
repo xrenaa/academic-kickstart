@@ -11,11 +11,11 @@ date: 2023-01-01
 authors: ["Chenyang Lei*", "Xuanchi Ren*", "Zhaoxiang Zhang", "Qifeng Chen"]
 publication_types: ["3"]
 featured: False
-url_pdf: "https://openreview.net/forum?id=AXWygMvuT6Q"
+url_pdf: "https://chenyanglei.github.io/deflicker/CVPR2023_deflicker_lowres.pdf"
 links:
   - icon_pack: fab
     icon: 
     name: Website
-    url: 'https://ydcustc.github.io/retriever-demo/'
+    url: 'https://chenyanglei.github.io/deflicker/'
 publication: "CVPR 2023"
 ---
