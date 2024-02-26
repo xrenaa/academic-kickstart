@@ -6,7 +6,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-title: "XCube ($\mathcal {X}^ 3$): Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies"
+title: "XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies"
 date: 2023-11-15
 authors: ["Xuanchi Ren", "Jiahui Huang", "Xiaohui Zeng", "Ken Museth", "Sanja Fidler", "Francis Williams"]
 publication_types: ["3"]
