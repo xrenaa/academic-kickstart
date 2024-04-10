@@ -66,7 +66,7 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student at University of Toronto, machine learning group and Vector Institute. I am also a research intern at [NVIDIA](https://nv-tlabs.github.io/). My supervisor is Prof. [Sanja Fidler](http://www.cs.utoronto.ca/~fidler/). During my undergraduate years at HKUST, I was supervised by Prof. [Qifeng Chen](https://cqf.io/) and I was fortunate to work with Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/), Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en)@EPFL, Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/)@MSRA and Prof. [Xiaolong Wang](https://xiaolonw.github.io/)@UCSD. 
+I am a PhD student at University of Toronto, machine learning group and Vector Institute. I am also a research intern at [NVIDIA](https://nv-tlabs.github.io/). My supervisor is Prof. [Sanja Fidler](http://www.cs.utoronto.ca/~fidler/), and I am closely working with Dr. [Francis Williams](https://www.fwilliams.info/) and Dr. [Jiahui Huang](https://huangjh-pub.github.io/). During my undergraduate years at HKUST, I was supervised by Prof. [Qifeng Chen](https://cqf.io/) and I was fortunate to work with Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/), Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en)@EPFL, Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/)@MSRA and Prof. [Xiaolong Wang](https://xiaolonw.github.io/)@UCSD. 
 
 My research interests are in computer vision, particularly generative modeling and 3D vision.
 
