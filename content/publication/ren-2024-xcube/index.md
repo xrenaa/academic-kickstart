@@ -17,7 +17,7 @@ links:
     icon: 
     name: Website
     url: 'https://research.nvidia.com/labs/toronto-ai/xcube/'
-publication: "CVPR 2024"
+publication: "CVPR 2024 Highlight (2.8% acceptance rate)"
 ---
 
 {{< youtube GX0lzwy8nUI>}}
