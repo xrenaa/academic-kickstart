@@ -10,7 +10,7 @@ title: "SCube: Instant Large-Scale Scene Reconstruction using VoxSplats"
 date: 2024-09-01
 authors: ["Xuanchi Ren*",  "Yifan Lu*", "Hanxue Liang", " Jay Zhangjie Wu", "Huan Ling", "Mike Chen", "Sanja Fidler", "Francis Williams", "Jiahui Huang"]
 publication_types: ["3"]
-featured: true
+featured: false
 url_pdf: ""
 links:
   - icon_pack: fab
