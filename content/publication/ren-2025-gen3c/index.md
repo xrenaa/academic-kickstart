@@ -7,7 +7,7 @@ image:
   focal_point: ""
   preview_only: false
 title: "GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control"
-date: 2025-03-01
+date: 2025-03-15
 authors: ["Xuanchi Ren*", "Tianchang Shen*", "Jiahui Huang", "Huan Ling", "Yifan Lu", "Merlin Nimier-David", "Thomas Müller", "Alexander Keller", "Sanja Fidler", "Jun Gao"]
 publication_types: ["3"]
 featured: true
