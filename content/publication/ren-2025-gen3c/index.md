@@ -8,7 +8,7 @@ image:
   preview_only: false
 title: "GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control"
 date: 2025-03-01
-authors: ["Xuanchi Ren", "Tianchang Shen", "Jiahui Huang", "Huan Ling", "Yifan Lu", "Merlin Nimier-David", "Thomas Müller", "Alexander Keller", "Sanja Fidler", "Jun Gao"]
+authors: ["Xuanchi Ren*", "Tianchang Shen*", "Jiahui Huang", "Huan Ling", "Yifan Lu", "Merlin Nimier-David", "Thomas Müller", "Alexander Keller", "Sanja Fidler", "Jun Gao"]
 publication_types: ["3"]
 featured: true
 url_pdf: "https://research.nvidia.com/labs/toronto-ai/GEN3C/paper.pdf"
