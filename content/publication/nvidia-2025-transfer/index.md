@@ -17,7 +17,7 @@ links:
     icon: 
     name: Website
     url: 'https://research.nvidia.com/labs/dir/cosmos-transfer1/'
-publication: "White Paper"
+publication: "White Paper (Featured in Jensen Huang's GTC 2025 keynote.)"
 ---
 
 {{< youtube 0Yr5SdrVnxc>}}
