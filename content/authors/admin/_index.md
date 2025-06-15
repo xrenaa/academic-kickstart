@@ -27,7 +27,7 @@ education:
   courses:
   - course: PhD student in Computer Science
     institution: University of Toronto
-    year: 2022-2027 (expected)
+    year: 2022-Now
   - course: Exchange student
     institution: EPFL
     year: 2020 Spring
