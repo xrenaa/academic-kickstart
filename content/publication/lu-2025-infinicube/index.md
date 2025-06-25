@@ -17,5 +17,5 @@ links:
     icon: 
     name: Website
     url: 'https://research.nvidia.com/labs/toronto-ai/infinicube/'
-publication: "Under Review"
+publication: "ICCV 2025"
 ---
