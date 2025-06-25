@@ -17,6 +17,6 @@ links:
     icon: 
     name: Website
     url: 'https://research.nvidia.com/labs/toronto-ai/difix3d/'
-publication: "CVPR 2025 Oral (0.7% acceptance rate)"
+publication: "CVPR 2025 Best Paper Award Candidate (Top 14)"
 ---
 <!-- {{< youtube GX0lzwy8nUI>}} -->
