@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Student
+role: Senior Research Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: University of Toronto
+- name: NVIDIA
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -27,11 +27,11 @@ education:
   courses:
   - course: PhD student in Computer Science
     institution: University of Toronto
-    year: 2022-Now
+    year: 2022-2026
   - course: Exchange student
     institution: EPFL
     year: 2020 Spring
-  - course: BSc in Compter Science and Math
+  - course: BSc in Computer Science and Math
     institution: HKUST
     year: 2017-2022
 
@@ -66,7 +66,7 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student at University of Toronto. I am also a research scientist at [NVIDIA](https://nv-tlabs.github.io/). My supervisor is Prof. [Sanja Fidler](http://www.cs.utoronto.ca/~fidler/). During my undergraduate years at HKUST, I was supervised by Prof. [Qifeng Chen](https://cqf.io/) and I was fortunate to work with Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/), Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en)@EPFL, Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/)@MSRA and Prof. [Xiaolong Wang](https://xiaolonw.github.io/)@UCSD. 
+I am a senior research scientist at [NVIDIA Spatial Intelligence Lab](https://nv-tlabs.github.io/).
+I am also a PhD student at University of Toronto. My supervisor is Prof. [Sanja Fidler](http://www.cs.utoronto.ca/~fidler/). During my undergraduate years at HKUST, I was supervised by Prof. [Qifeng Chen](https://cqf.io/) and I was fortunate to work with Dr. [Li Erran Li](http://www.cs.columbia.edu/~lierranli/), Prof. [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en)@EPFL, Dr. [Yuwang Wang](https://www.microsoft.com/en-us/research/people/yuwwan/)@MSRA and Prof. [Xiaolong Wang](https://xiaolonw.github.io/)@UCSD. 
 
 My research interests are in computer vision, particularly generative modeling and 3D vision.
-
