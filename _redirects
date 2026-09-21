@@ -1,0 +1,5 @@
+# Old Hugo URLs -> new single-page site
+/publication/*   /#publications   302
+/authors/*       /                302
+/project/*       /                302
+/post/*          /                302

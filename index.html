@@ -1,0 +1,647 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Xuanchi Ren</title>
+    <meta name="author" content="Xuanchi Ren">
+    <meta name="description" content="Xuanchi Ren is a Senior Research Scientist at the NVIDIA Spatial Intelligence Lab working on generative modeling and 3D vision.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <script type="text/javascript">
+        function showPubs(id) {
+            var src = id === 0 ? 'pubs_selected' : 'pubs_by_date';
+            document.getElementById('pubs').innerHTML = document.getElementById(src).innerHTML;
+            document.getElementById('select0').style = id === 0 ? 'text-decoration:underline;color:#000000' : '';
+            document.getElementById('select1').style = id === 1 ? 'text-decoration:underline;color:#000000' : '';
+        }
+    </script>
+</head>
+
+<body>
+<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+    <tr style="padding:0px">
+        <td style="padding:0px">
+
+            <!-- ============ Intro ============ -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr style="padding:0px">
+                    <td style="padding:2.5%;width:63%;vertical-align:middle">
+                        <p style="text-align:center">
+                            <name>Xuanchi Ren</name>
+                        </p>
+                        <p align="justify">
+                            I am a senior research scientist at the <a href="https://nv-tlabs.github.io/">NVIDIA Spatial Intelligence Lab</a>.
+                            I am also a Ph.D. student at the <a href="http://web.cs.toronto.edu/">University of Toronto</a>, advised by
+                            Prof. <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>.
+                            During my undergraduate years at HKUST, I was supervised by Prof. <a href="https://cqf.io/">Qifeng Chen</a>,
+                            and I was fortunate to work with Dr. <a href="http://www.cs.columbia.edu/~lierranli/">Li Erran Li</a>,
+                            Prof. <a href="https://people.epfl.ch/alexandre.alahi?lang=en">Alexandre Alahi</a> (EPFL),
+                            Dr. <a href="https://www.microsoft.com/en-us/research/people/yuwwan/">Yuwang Wang</a> (MSRA) and
+                            Prof. <a href="https://xiaolonw.github.io/">Xiaolong Wang</a> (UCSD).
+                        </p>
+                        <p align="justify">
+                            My research interests are in computer vision, particularly generative modeling and 3D vision.
+                        </p>
+                        <p style="text-align:center">
+                            <a href="mailto:xrenaa@connect.ust.hk">Email</a> &nbsp;/&nbsp;
+                            <a href="files/cv.pdf">CV</a> &nbsp;/&nbsp;
+                            <a href="https://scholar.google.com/citations?user=fDHUk18AAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                            <a href="https://github.com/xrenaa">Github</a>
+                        </p>
+                    </td>
+                    <td style="padding:2.5%;width:40%;max-width:40%">
+                        <a href="images/avatar.jpg"><img style="width:100%;max-width:100%;border-radius:50%" alt="profile photo" src="images/avatar.jpg"></a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <!-- ============ News ============ -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr>
+                    <td style="padding:20px;width:100%;vertical-align:middle">
+                        <heading>News</heading>
+                        <ul style="padding-left:20px;margin-top:10px">
+                <li><strong>Jun. 2025:</strong> We released <a href="https://research.nvidia.com/labs/toronto-ai/cosmos_drive_dreams/">Cosmos-Drive-Dreams</a>, a synthetic driving data generation pipeline built on world foundation models.</li>
+                <li><strong>Jun. 2025:</strong> <a href="https://research.nvidia.com/labs/toronto-ai/infinicube/">InfiniCube</a> is accepted to ICCV 2025.</li>
+                <li><strong>Mar. 2025:</strong> <a href="https://research.nvidia.com/labs/dir/cosmos-transfer1/">Cosmos-Transfer1</a> was featured in Jensen Huang's GTC 2025 keynote.</li>
+                <li><strong>Feb. 2025:</strong> <a href="https://research.nvidia.com/labs/toronto-ai/GEN3C/">GEN3C</a> is accepted to CVPR 2025 as a <strong>Highlight</strong>. <a href="https://research.nvidia.com/labs/toronto-ai/difix3d/">Difix3D+</a> is accepted to CVPR 2025 and selected as a <span style="color:#c00">Best Paper Award Candidate</span>.</li>
+                <li><strong>Sep. 2024:</strong> <a href="https://research.nvidia.com/labs/toronto-ai/scube/">SCube</a> is accepted to NeurIPS 2024.</li>
+                <li><strong>Feb. 2024:</strong> <a href="https://research.nvidia.com/labs/toronto-ai/xcube/">XCube</a> is accepted to CVPR 2024 as a <strong>Highlight</strong>.</li>
+                        </ul>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <!-- ============ Publications ============ -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr>
+                    <td style="padding:20px;width:100%;vertical-align:middle">
+                        <heading>Publications</heading>
+                        &nbsp; (<a href="javascript:showPubs(0);" id="select0" style="text-decoration:underline;color:#000000">show selected</a> /
+                        <a href="javascript:showPubs(1);" id="select1">show by date</a>)
+                        <p style="margin-top:8px">* denotes equal contribution, &dagger; denotes equal advising.</p>
+
+                        <div id="pubs"></div>
+
+                        <script id="pubs_selected" type="text/template">
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/cosmos_drive_poster.jpg"><source src="images/cosmos_drive.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/toronto-ai/cosmos_drive_dreams/"><papertitle>Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren*</strong>,
+                Yifan Lu*,
+                Tianshi Cao*,
+                Ruiyuan Gao*,
+                Shengyu Huang,
+                Amirmojtaba Sabour,
+                Tianchang Shen,
+                Tobias Pfaff,
+                Jay Zhangjie Wu,
+                Runjian Chen,
+                Seung Wook Kim,
+                Jun Gao,
+                Laura Leal-Taixe,
+                Mike Chen,
+                Sanja Fidler,
+                Huan Ling
+                <br>
+                <em>White Paper, 2025</em>
+                <br>
+                <a href="https://research.nvidia.com/labs/toronto-ai/cosmos_drive_dreams/">project page</a> /
+                <a href="https://arxiv.org/abs/2506.09042">arXiv</a>
+                <p></p>
+                <p align="justify">A synthetic data generation pipeline built on world foundation models that produces diverse, controllable driving data at scale.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/gen3c_poster.jpg"><source src="images/gen3c.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/toronto-ai/GEN3C/"><papertitle>GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren*</strong>,
+                Tianchang Shen*,
+                Jiahui Huang,
+                Huan Ling,
+                Yifan Lu,
+                Merlin Nimier-David,
+                Thomas Müller,
+                Alexander Keller,
+                Sanja Fidler,
+                Jun Gao
+                <br>
+                <em>CVPR 2025</em>&nbsp; <span style="color:#c00">Highlight (3% acceptance rate)</span>
+                <br>
+                <a href="https://research.nvidia.com/labs/toronto-ai/GEN3C/">project page</a> /
+                <a href="https://research.nvidia.com/labs/toronto-ai/GEN3C/paper.pdf">paper</a> /
+                <a href="https://www.youtube.com/watch?v=ai72aAA0dWo">video</a>
+                <p></p>
+                <p align="justify">A generative video model guided by an explicit 3D cache, giving precise camera control and 3D-consistent results from as little as a single image.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><img src="images/cosmos_transfer.jpg" alt="" width="160" height="160"></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/dir/cosmos-transfer1/"><papertitle>Cosmos-Transfer1: Conditional World Generation with Adaptive Multimodal Control</papertitle></a>
+                <br>
+                NVIDIA (core contributor)
+                <br>
+                <em>White Paper, 2025</em>&nbsp; <span style="color:#c00">Featured in Jensen Huang's GTC 2025 keynote</span>
+                <br>
+                <a href="https://research.nvidia.com/labs/dir/cosmos-transfer1/">project page</a> /
+                <a href="https://arxiv.org/abs/2503.14492">arXiv</a> /
+                <a href="https://www.youtube.com/watch?v=0Yr5SdrVnxc">video</a>
+                <p></p>
+                <p align="justify">A conditional world foundation model that generates simulations from multiple spatial control inputs such as segmentation, depth and edges.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/xcube_poster.jpg"><source src="images/xcube.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/toronto-ai/xcube/"><papertitle>XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren</strong>,
+                Jiahui Huang,
+                Xiaohui Zeng,
+                Ken Museth,
+                Sanja Fidler,
+                Francis Williams
+                <br>
+                <em>CVPR 2024</em>&nbsp; <span style="color:#c00">Highlight (2.8% acceptance rate)</span>
+                <br>
+                <a href="https://research.nvidia.com/labs/toronto-ai/xcube/">project page</a> /
+                <a href="https://research.nvidia.com/labs/toronto-ai/xcube/assets/paper.pdf">paper</a> /
+                <a href="https://github.com/nv-tlabs/XCube">code</a> /
+                <a href="https://www.youtube.com/watch?v=GX0lzwy8nUI">video</a>
+                <p></p>
+                <p align="justify">A generative model for high-resolution sparse 3D voxel grids that scales to millions of voxels and large outdoor scenes in a feed-forward fashion.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/look_poster.jpg"><source src="images/look.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://xrenaa.github.io/look-outside-room/"><papertitle>Look Outside the Room: Synthesizing A Consistent Long-Term 3D Scene Video from A Single Image</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren</strong>,
+                Xiaolong Wang
+                <br>
+                <em>CVPR 2022</em>
+                <br>
+                <a href="https://xrenaa.github.io/look-outside-room/">project page</a> /
+                <a href="pub/look-outside-door.pdf">paper</a> /
+                <a href="https://www.youtube.com/watch?v=eSftXilv21s">video</a>
+                <p></p>
+                <p align="justify">Synthesizes long-term, consistent 3D scene videos from a single image along arbitrary camera trajectories.</p>
+            </td>
+        </tr></tbody></table>
+                        </script>
+                        <script id="pubs_by_date" type="text/template">
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/cosmos_drive_poster.jpg"><source src="images/cosmos_drive.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/toronto-ai/cosmos_drive_dreams/"><papertitle>Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren*</strong>,
+                Yifan Lu*,
+                Tianshi Cao*,
+                Ruiyuan Gao*,
+                Shengyu Huang,
+                Amirmojtaba Sabour,
+                Tianchang Shen,
+                Tobias Pfaff,
+                Jay Zhangjie Wu,
+                Runjian Chen,
+                Seung Wook Kim,
+                Jun Gao,
+                Laura Leal-Taixe,
+                Mike Chen,
+                Sanja Fidler,
+                Huan Ling
+                <br>
+                <em>White Paper, 2025</em>
+                <br>
+                <a href="https://research.nvidia.com/labs/toronto-ai/cosmos_drive_dreams/">project page</a> /
+                <a href="https://arxiv.org/abs/2506.09042">arXiv</a>
+                <p></p>
+                <p align="justify">A synthetic data generation pipeline built on world foundation models that produces diverse, controllable driving data at scale.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/gen3c_poster.jpg"><source src="images/gen3c.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/toronto-ai/GEN3C/"><papertitle>GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren*</strong>,
+                Tianchang Shen*,
+                Jiahui Huang,
+                Huan Ling,
+                Yifan Lu,
+                Merlin Nimier-David,
+                Thomas Müller,
+                Alexander Keller,
+                Sanja Fidler,
+                Jun Gao
+                <br>
+                <em>CVPR 2025</em>&nbsp; <span style="color:#c00">Highlight (3% acceptance rate)</span>
+                <br>
+                <a href="https://research.nvidia.com/labs/toronto-ai/GEN3C/">project page</a> /
+                <a href="https://research.nvidia.com/labs/toronto-ai/GEN3C/paper.pdf">paper</a> /
+                <a href="https://www.youtube.com/watch?v=ai72aAA0dWo">video</a>
+                <p></p>
+                <p align="justify">A generative video model guided by an explicit 3D cache, giving precise camera control and 3D-consistent results from as little as a single image.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><img src="images/cosmos_transfer.jpg" alt="" width="160" height="160"></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/dir/cosmos-transfer1/"><papertitle>Cosmos-Transfer1: Conditional World Generation with Adaptive Multimodal Control</papertitle></a>
+                <br>
+                NVIDIA (core contributor)
+                <br>
+                <em>White Paper, 2025</em>&nbsp; <span style="color:#c00">Featured in Jensen Huang's GTC 2025 keynote</span>
+                <br>
+                <a href="https://research.nvidia.com/labs/dir/cosmos-transfer1/">project page</a> /
+                <a href="https://arxiv.org/abs/2503.14492">arXiv</a> /
+                <a href="https://www.youtube.com/watch?v=0Yr5SdrVnxc">video</a>
+                <p></p>
+                <p align="justify">A conditional world foundation model that generates simulations from multiple spatial control inputs such as segmentation, depth and edges.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/difix3d_poster.jpg"><source src="images/difix3d.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/toronto-ai/difix3d/"><papertitle>Difix3D+: Improving 3D Reconstructions with Single-Step Diffusion Models</papertitle></a>
+                <br>
+                Jay Zhangjie Wu*,
+                Yuxuan Zhang*,
+                Haithem Turki,
+                <strong>Xuanchi Ren</strong>,
+                Jun Gao,
+                Mike Zheng Shou,
+                Sanja Fidler,
+                Zan Gojcic†,
+                Huan Ling†
+                <br>
+                <em>CVPR 2025</em>&nbsp; <span style="color:#c00">Best Paper Award Candidate (Top 14)</span>
+                <br>
+                <a href="https://research.nvidia.com/labs/toronto-ai/difix3d/">project page</a> /
+                <a href="https://arxiv.org/abs/2503.01774">arXiv</a>
+                <p></p>
+                <p align="justify">A single-step diffusion model that removes artifacts from NeRF and 3D Gaussian Splatting renderings and improves novel-view quality.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/infinicube_poster.jpg"><source src="images/infinicube.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/toronto-ai/infinicube/"><papertitle>InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models</papertitle></a>
+                <br>
+                Yifan Lu*,
+                <strong>Xuanchi Ren*</strong>,
+                Jiawei Yang,
+                Tianchang Shen,
+                Zhangjie Wu,
+                Jun Gao,
+                Yue Wang,
+                Siheng Chen,
+                Mike Chen,
+                Sanja Fidler,
+                Jiahui Huang
+                <br>
+                <em>ICCV 2025</em>
+                <br>
+                <a href="https://research.nvidia.com/labs/toronto-ai/infinicube/">project page</a> /
+                <a href="https://research.nvidia.com/labs/toronto-ai/infinicube/assets/paper.pdf">paper</a>
+                <p></p>
+                <p align="justify">Generates unbounded, controllable dynamic 3D driving scenes by combining sparse-voxel world generation with world-guided video models.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/scube_poster.jpg"><source src="images/scube.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/toronto-ai/scube/"><papertitle>SCube: Instant Large-Scale Scene Reconstruction using VoxSplats</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren*</strong>,
+                Yifan Lu*,
+                Hanxue Liang,
+                Jay Zhangjie Wu,
+                Huan Ling,
+                Mike Chen,
+                Sanja Fidler,
+                Francis Williams,
+                Jiahui Huang
+                <br>
+                <em>NeurIPS 2024</em>
+                <br>
+                <a href="https://research.nvidia.com/labs/toronto-ai/scube/">project page</a>
+                <p></p>
+                <p align="justify">Reconstructs large-scale 3D scenes from a handful of posed images in a feed-forward pass using a sparse-voxel Gaussian representation.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/xcube_poster.jpg"><source src="images/xcube.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/toronto-ai/xcube/"><papertitle>XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren</strong>,
+                Jiahui Huang,
+                Xiaohui Zeng,
+                Ken Museth,
+                Sanja Fidler,
+                Francis Williams
+                <br>
+                <em>CVPR 2024</em>&nbsp; <span style="color:#c00">Highlight (2.8% acceptance rate)</span>
+                <br>
+                <a href="https://research.nvidia.com/labs/toronto-ai/xcube/">project page</a> /
+                <a href="https://research.nvidia.com/labs/toronto-ai/xcube/assets/paper.pdf">paper</a> /
+                <a href="https://github.com/nv-tlabs/XCube">code</a> /
+                <a href="https://www.youtube.com/watch?v=GX0lzwy8nUI">video</a>
+                <p></p>
+                <p align="justify">A generative model for high-resolution sparse 3D voxel grids that scales to millions of voxels and large outdoor scenes in a feed-forward fashion.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/deflicker_poster.jpg"><source src="images/deflicker.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://chenyanglei.github.io/deflicker/"><papertitle>Blind Deflickering by Neural Filtering with a Flawed Atlas</papertitle></a>
+                <br>
+                Chenyang Lei*,
+                <strong>Xuanchi Ren*</strong>,
+                Zhaoxiang Zhang,
+                Qifeng Chen
+                <br>
+                <em>CVPR 2023</em>
+                <br>
+                <a href="https://chenyanglei.github.io/deflicker/">project page</a> /
+                <a href="https://chenyanglei.github.io/deflicker/CVPR2023_deflicker_lowres.pdf">paper</a>
+                <p></p>
+                <p align="justify">Removes flicker from videos without knowing the flicker type, using a neural filter on top of an imperfect neural atlas.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><video width="100%" height="100%" muted autoplay loop playsinline poster="images/look_poster.jpg"><source src="images/look.mp4" type="video/mp4"></video></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://xrenaa.github.io/look-outside-room/"><papertitle>Look Outside the Room: Synthesizing A Consistent Long-Term 3D Scene Video from A Single Image</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren</strong>,
+                Xiaolong Wang
+                <br>
+                <em>CVPR 2022</em>
+                <br>
+                <a href="https://xrenaa.github.io/look-outside-room/">project page</a> /
+                <a href="pub/look-outside-door.pdf">paper</a> /
+                <a href="https://www.youtube.com/watch?v=eSftXilv21s">video</a>
+                <p></p>
+                <p align="justify">Synthesizes long-term, consistent 3D scene videos from a single image along arbitrary camera trajectories.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><img src="images/disco.jpg" alt="" width="160" height="160"></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://openreview.net/forum?id=j-63FSNcO5a"><papertitle>Learning Disentangled Representation by Exploiting Pretrained Generative Models: A Contrastive Learning View</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren*</strong>,
+                Tao Yang*,
+                Yuwang Wang,
+                Wenjun Zeng
+                <br>
+                <em>ICLR 2022</em>
+                <br>
+                <a href="https://openreview.net/forum?id=j-63FSNcO5a">paper</a> /
+                <a href="https://github.com/xrenaa/DisCo">code</a>
+                <p></p>
+                <p align="justify">Discovers disentangled directions in pretrained generative models through a contrastive learning objective.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><img src="images/retriever.jpg" alt="" width="160" height="160"></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://ydcustc.github.io/retriever-demo/"><papertitle>Retriever: Learning Content-Style Representation as a Token-Level Bipartite Graph</papertitle></a>
+                <br>
+                Dacheng Yin*,
+                <strong>Xuanchi Ren*</strong>,
+                Chong Luo,
+                Yuwang Wang,
+                Zhiwei Xiong,
+                Wenjun Zeng
+                <br>
+                <em>ICLR 2022</em>
+                <br>
+                <a href="https://ydcustc.github.io/retriever-demo/">project page</a> /
+                <a href="https://openreview.net/forum?id=AXWygMvuT6Q">paper</a>
+                <p></p>
+                <p align="justify">An unsupervised content-style representation modeled as a token-level bipartite graph, applied to both speech and images.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://openreview.net/pdf?id=YgPqNctmyd"><papertitle>Towards Building A Group-based Unsupervised Representation Disentanglement Framework</papertitle></a>
+                <br>
+                Tao Yang,
+                <strong>Xuanchi Ren</strong>,
+                Yuwang Wang,
+                Wenjun Zeng
+                <br>
+                <em>ICLR 2022</em>
+                <br>
+                <a href="https://openreview.net/pdf?id=YgPqNctmyd">paper</a> /
+                <a href="https://github.com/ThomasMrY/Groupified-VAE">code</a>
+                <p></p>
+                <p align="justify">A group-theory-based framework for unsupervised representation disentanglement.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><img src="images/csd.jpg" alt="" width="160" height="160"></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://arxiv.org/pdf/2102.10544.pdf"><papertitle>Rethinking Content and Style: Exploring Bias for Unsupervised Disentanglement</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren</strong>,
+                Tao Yang,
+                Yuwang Wang,
+                Wenjun Zeng
+                <br>
+                <em>ICCV Workshop 2021</em>
+                <br>
+                <a href="https://arxiv.org/pdf/2102.10544.pdf">paper</a> /
+                <a href="https://github.com/xrenaa/CS-DisMo">code</a>
+                <p></p>
+                <p align="justify">Studies the inductive biases needed to separate content from style without supervision.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><img src="images/safe.jpg" alt="" width="160" height="160"></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://arxiv.org/pdf/2109.01510.pdf"><papertitle>Safety-aware Motion Prediction with Unseen Vehicles for Autonomous Driving</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren*</strong>,
+                Tao Yang*,
+                Li Erran Li,
+                Alexandre Alahi,
+                Qifeng Chen
+                <br>
+                <em>ICCV 2021</em>
+                <br>
+                <a href="https://arxiv.org/pdf/2109.01510.pdf">paper</a> /
+                <a href="https://github.com/xrenaa/Safety-Aware-Motion-Prediction">code</a>
+                <p></p>
+                <p align="justify">Predicts occupancy of both seen and unseen vehicles to make motion forecasting safer for autonomous driving.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><img src="images/deblur.jpg" alt="" width="160" height="160"></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="pub/blur"><papertitle>Video Deblurring by Fitting to Test Data</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren*</strong>,
+                Zian Qian*,
+                Qifeng Chen
+                <br>
+                <em>Preprint, 2020</em>
+                <br>
+                <a href="pub/blur">project page</a> /
+                <a href="https://arxiv.org/pdf/2012.05228.pdf">paper</a> /
+                <a href="https://github.com/xrenaa/Deblur-by-Fitting">code</a>
+                <p></p>
+                <p align="justify">Improves video deblurring by fitting the network to the sharp frames found within the test video itself.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:16px 10px 16px 0;width:23%;vertical-align:middle">
+                <div class="one"><div class="two"><img src="images/music.jpg" alt="" width="160" height="160"></div></div>
+            </td>
+            <td style="padding:16px 0 16px 10px;width:77%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/1912.06606"><papertitle>Self-supervised Dance Video Synthesis Conditioned on Music</papertitle></a>
+                <br>
+                <strong>Xuanchi Ren</strong>,
+                Haoran Li,
+                Zijian Huang,
+                Qifeng Chen
+                <br>
+                <em>ACM MM 2020</em>&nbsp; <span style="color:#c00">Full Oral Presentation (9% acceptance rate)</span>
+                <br>
+                <a href="https://arxiv.org/abs/1912.06606">paper</a> /
+                <a href="https://github.com/xrenaa/Music-Dance-Video-Synthesis">code</a> /
+                <a href="https://www.youtube.com/watch?v=0rMuFMZa_K4">video</a>
+                <p></p>
+                <p align="justify">Generates dance videos from music with a self-supervised pose-synthesis pipeline.</p>
+            </td>
+        </tr></tbody></table>
+                        </script>
+                        <script>showPubs(0);</script>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <!-- ============ Employment ============ -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr>
+                    <td style="padding:20px;width:100%;vertical-align:middle">
+                        <heading>Employment</heading>
+                        <table style="width:100%;border:0px;border-spacing:0px;margin-top:10px"><tbody>
+        <tr>
+            <td style="padding:6px 0;width:70%;vertical-align:top">Senior Research Scientist, <a href="https://nv-tlabs.github.io/">NVIDIA Spatial Intelligence Lab</a></td>
+            <td style="padding:6px 0;width:30%;vertical-align:top;text-align:right;color:#666">Present</td>
+        </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <!-- ============ Education ============ -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr>
+                    <td style="padding:20px;width:100%;vertical-align:middle">
+                        <heading>Education</heading>
+                        <table style="width:100%;border:0px;border-spacing:0px;margin-top:10px"><tbody>
+        <tr>
+            <td style="padding:6px 0;width:70%;vertical-align:top">Ph.D. student in Computer Science, <a href="http://web.cs.toronto.edu/">University of Toronto</a></td>
+            <td style="padding:6px 0;width:30%;vertical-align:top;text-align:right;color:#666">2022 - 2026</td>
+        </tr>
+        <tr>
+            <td style="padding:6px 0;width:70%;vertical-align:top">Exchange student, <a href="https://www.epfl.ch/">EPFL</a></td>
+            <td style="padding:6px 0;width:30%;vertical-align:top;text-align:right;color:#666">Spring 2020</td>
+        </tr>
+        <tr>
+            <td style="padding:6px 0;width:70%;vertical-align:top">B.Sc. in Computer Science and Mathematics, <a href="https://hkust.edu.hk/">HKUST</a></td>
+            <td style="padding:6px 0;width:30%;vertical-align:top;text-align:right;color:#666">2017 - 2022</td>
+        </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <!-- ============ Footer ============ -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr>
+                    <td style="padding:20px">
+                        <p style="text-align:right;font-size:small;">
+                            Template borrowed from <a href="https://jonbarron.info">Jon Barron</a> and <a href="https://j-lab.ai">Jun Gao</a>.
+                        </p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
